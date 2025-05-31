@@ -2,12 +2,10 @@
   "name": "accordion",
   "version": "1.0.0",
   "description": "A simple and interactive FAQ (Frequently Asked Questions) accordion implementation using HTML, CSS, and JavaScript.",
-  "main": "index.js",
+  "main": "accordion.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .",
-    "build": "echo 'No build step required'"
+    "deploy": "gh-pages -d . --dotfiles"
   },
   "repository": {
     "type": "git",
