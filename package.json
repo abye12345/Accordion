@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d . -t accordion.html"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build step required'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/abye12345/Accordion/issues"
   },
-  "homepage": "https://abye12345.github.io/Accordion/accordion.html",
+  "homepage": "https://abye12345.github.io/Accordion/",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
