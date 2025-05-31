@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" initail-scale="1.0" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="fac.png" />
+    <link rel="stylesheet" href="accordion.css" />
+  </head>
+  <body>
+    <div class="first">
+      <header>
+        <h1>Fequently Asked Question(FAQ)</h1>
+        <h3>Here Are Some of frequently questions</h3>
+      </header>
+      <div class="click" onclick="my()">what is programming language</div>
+      <p class="clickr" style="display: none">
+        A programming language is a formal set of rules and syntax used to
+        instruct a computer to perform specific tasks. Programming languages
+        enable developers to write programs that control the behavior of a
+        machine, particularly computers.
+      </p>
+      <div class="click1" onclick="mom()">what version control</div>
+      <p id="one" style="display: none">
+        A version control system (VCS) is a tool that helps manage changes to
+        files over time.
+      </p>
+      <div onclick="UI()" class="click2">what is HTTPs</div>
+      <p id="js" style="display: none">
+        HTTPS stands for Hypertext Transfer Protocol Secure. It is an extension
+        of HTTP (Hypertext Transfer Protocol) and is used for secure
+        communication over a computer network.
+      </p>
+    </div>
+    <script>
+      let UI = () => {
+        let a = document.getElementById("js");
+        if (a.style.display === "none") {
+          a.style.display = "block";
+        } else {
+          a.style.display = "none";
+        }
+      };
+
+      function my() {
+        let x = document.querySelector(".clickr");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function mom() {
+        let y = document.getElementById("one");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
