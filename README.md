@@ -1,4 +1,6 @@
-# Accordion FAQ Project
+# Accordion
+
+**Live Demo:** [View the project on GitHub Pages](https://abye12345.github.io/Accordion/accordion.html)
 
 A simple and interactive FAQ (Frequently Asked Questions) accordion implementation using HTML, CSS, and JavaScript.
 
