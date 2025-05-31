@@ -1,0 +1,25 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "A simple and interactive FAQ (Frequently Asked Questions) accordion implementation using HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abye12345/Accordion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abye12345/Accordion/issues"
+  },
+  "homepage": "https://github.com/abye12345/Accordion#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
